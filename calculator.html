@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator - Mostafa Miri</title>
+    <link rel="stylesheet" href="./calculator.css">
+</head>
+
+<body>
+<div class="main">
+    <div class="heading">
+        <span><i class="fa fa-bars"></i></span>
+        <span>Calculator</span>
+    </div>
+    <div id="result">
+        <div class="history">
+            <p id="history-value"></p>
+        </div>
+        <div class="output">
+            <p id="output-value">0</p>
+        </div>
+    </div>
+    <div id="keyboard">
+        <div class="group">
+            <div class="top-section">
+                <button class="operator" data-input="clear">C</button>
+                <button class="operator" data-input="backspace">
+                    <b data-input="backspace">B</b>
+                </button>
+                <button class="operator" data-input="%">%</button>
+            </div>
+            <div class="middle-section">
+                <div>
+                    <button class="number" data-input="7">7</button>
+                    <button class="number" data-input="8">8</button>
+                    <button class="number" data-input="9">9</button>
+                </div>
+                <div>
+                    <button class="number" data-input="4">4</button>
+                    <button class="number" data-input="5">5</button>
+                    <button class="number" data-input="6">6</button>
+                </div>
+                <div>
+                    <button class="number" data-input="1">1</button>
+                    <button class="number" data-input="2">2</button>
+                    <button class="number" data-input="3">3</button>
+                </div>
+                <div>
+                    <button class="number" data-input="00">00</button></td>
+                    <button class="number" data-input="0">0</button></td>
+                </div>
+            </div>
+        </div>
+        <div class="side-section">
+            <button class="operator" data-input="/">/</button>
+            <button class="operator" data-input="*">&times</button>
+            <button class="operator" data-input="-">-</button>
+            <button class="operator" data-input="+">+</button>
+            <button class="equal" data-input="=">=</button></td>
+        </div>
+    </div>
+</div>
+<script src="calculator.js"></script>
+</body>
+
+</html>
